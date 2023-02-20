@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url("img/night.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.page-header-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 80px 20px 20px;
+}
+
+.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-item {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #a4a9b3;
+}
+
+.navigation-link:hover {
+  text-decoration: underline;
+}
+
+.navigation-link.active {
+  color: white;
+}
+
+.page-main {
+  min-height: calc(100vh - 275px);
+}
+
+.page-main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 70px 20px 0;
+}
+
+.page-content {
+  max-width: 600px;
+  padding-left: 50px;
+}
+
+.main-title {
+  margin-bottom: 0;
+}
+
+.text {
+  margin-top: 3px;
+}
+
+.page-footer-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 20px 80px;
+}
+
+.copy {
+  color: #a4a9b3;
+}
